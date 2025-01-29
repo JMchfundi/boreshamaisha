@@ -5,7 +5,7 @@ export default [
 
   // Admin Index/Dashboard
   {
-    path: "/",
+    path: "/home-deleted",
     name: "Home",
     meta: {
       // authRequired: true,
@@ -45,7 +45,7 @@ export default [
 
 
   {
-    path: "/login",
+    path: "/",
     name: "login",
     component: () => import("../views/pages/account/login.vue"),
     meta: {
