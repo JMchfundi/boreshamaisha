@@ -2,7 +2,7 @@ import { authHeader } from "./auth-header";
 import axios from "axios";
 import swal from "sweetalert";
 // const API_URL = "https://ttshousingapi.azurewebsites.net/";
-const API_URL = "https://ttslinuxhousingapi.azurewebsites.net/";
+const API_URL = "https://boreshamaisha-fjc5e0d4e2argfa7.uaenorth-01.azurewebsites.net/";
 // const API_URL = "https://ttsrestlocation.azurewebsites.net/";
 // ttshousingapi.azurewebsites.net
 // const API_URL = "http://localhost/";
