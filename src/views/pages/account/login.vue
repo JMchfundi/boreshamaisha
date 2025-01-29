@@ -26,8 +26,8 @@
 </style>
 <script>
 import { required, email } from "vuelidate/lib/validators";
-// import headerVue from "@/EstateAgency/components/header.vue";
-// import footerVue from "@/EstateAgency/components/footer.vue";
+import headerVue from "@/EstateAgency/components/header.vue";
+import footerVue from "@/EstateAgency/components/footer.vue";
 
 import {
   authMethods,
@@ -38,8 +38,8 @@ import {
 
 export default {
   components: {
-    // headerVue,
-    // footerVue
+    headerVue,
+    footerVue
 },
   inject: ['mySpinner'],
 
@@ -125,6 +125,7 @@ export default {
 
 <template>
   <body>
+    <headerVue/>
     <div class="" style="">
     <!-- <BtnLoader/> -->
     <!-- <BTNSPINNER/> -->
@@ -270,6 +271,7 @@ export default {
             </div>
           </div>
         </div>
+        <footerVue></footerVue>
       </div>
     </div>
   </div>
