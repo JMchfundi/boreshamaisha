@@ -114,6 +114,7 @@ export default [
       },
     },
   },
+
   // Admin Index/Dashboard
   {
     path: "/Xingzheng/dashboard",
@@ -123,6 +124,27 @@ export default [
     // },
     component: () => import("../views/pages/admin/index"),
   },
+
+  // Admin Index/Dashboard
+  {
+    path: "/accounting/coa",
+    name: "home",
+    // meta: {
+    //   authRequired: true, adminAuthRequired: true
+    // },
+    component: () => import("../views/pages/accounting/coa"),
+  },
+
+    // Admin Index/Dashboard
+    {
+      path: "/accounting/je",
+      name: "home",
+      // meta: {
+      //   authRequired: true, adminAuthRequired: true
+      // },
+      component: () => import("../views/pages/accounting/je"),
+    },
+
   // Admin menu
   {
     path: "/Xingzheng/reg_buyers",

@@ -138,7 +138,7 @@ export default {
               <div class="w-100">
                 <div class="row justify-content-center">
                   <div class="col-lg-9">
-                    <p class="text-capitalize text-center mt-2 font-size-24 fonnt_color">Africana Infrastructure Capital</p>
+                    <p class="text-capitalize text-center mt-2 font-size-24 fonnt_color">Boresha Maisha</p>
                   </div>
                 </div>
               </div>
@@ -260,7 +260,7 @@ export default {
 
                         <!-- <div class="col-12 p-0">
                             <p>
-                              © 2023 <span style="color: #FFA500;">Africana Infrastructure Capital.</span>
+                              © 2023 <span style="color: #FFA500;">Boresha Maisha.</span>
                             </p>
                           </div> -->
                       </div>

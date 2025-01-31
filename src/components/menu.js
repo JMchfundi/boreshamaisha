@@ -24,32 +24,32 @@ export const menuItems = [
         id: 2,
         label: "Chart of Accounts",
         // icon: "ri-eye-line",
-        link: "/ajan/view-projects",
+        link: "/accounting/coa",
       },
       {
         id: 4,
         label: "Journal Entries",
         // icon: "ri-shield-star-line",
-        link: "/ajan/popular-designs",
+        link: "/accounting/je",
       },
     ]
   },
   {
     id: 4,
     label: "Centres",
-    icon: "ri-file-list-line",
-    link: "/kaufer/documents",
+    icon: "ri-building-line",
+    link: "/centres",
   },
   {
     id: 4,
     label: "Clients",
-    icon: "ri-account-circle-line",
-    link: "/kaufer/documents",
+    icon: "ri-group-2-fill",
+    link: "/clients",
   },
   {
     id: 9,
     label: "Loans",
-    icon: "ri-link",
+    icon: "ri-bank-fill",
     subItems: [
       //COMPONENT value == NAME value
       //PATH value == LINK value
@@ -57,44 +57,44 @@ export const menuItems = [
         id: 2,
         label: "Outstanding - OLBs",
         icon: "ri-eye-line",
-        link: "/ajan/view-projects",
+        link: "/loans/olb",
       },
       {
         id: 4,
         label: "Applications",
         icon: "ri-shield-star-line",
-        link: "/ajan/popular-designs",
+        link: "/loans/app",
       },
       {
         id: 2,
         label: "Repayments",
         icon: "ri-eye-line",
-        link: "/ajan/view-projects",
+        link: "/loans/rep",
       },
       {
         id: 4,
         label: "Products",
         icon: "ri-shield-star-line",
-        link: "/ajan/popular-designs",
+        link: "/loans/prod",
       },
       {
         id: 2,
         label: "Cash Register",
         icon: "ri-eye-line",
-        link: "/ajan/view-projects",
+        link: "/loans/cashreg",
       },
       {
         id: 4,
         label: "Loan Provisioning",
         icon: "ri-shield-star-line",
-        link: "/ajan/popular-designs",
+        link: "/loans/prov",
       },
     ]
   },
   {
     id: 9,
     label: "Expenses",
-    icon: "ri-link",
+    icon: "ri-wallet-2-fill",
     subItems: [
       //COMPONENT value == NAME value
       //PATH value == LINK value
@@ -102,20 +102,20 @@ export const menuItems = [
         id: 2,
         label: "View Expenses",
         icon: "ri-eye-line",
-        link: "/ajan/view-projects",
+        link: "/expenses/view",
       },
       {
         id: 4,
         label: "Manage Expenses",
         icon: "ri-shield-star-line",
-        link: "/ajan/popular-designs",
+        link: "/expenses/manage",
       },
     ]
   },
   {
     id: 9,
     label: "Income",
-    icon: "ri-link",
+    icon: "ri-bank-card-fill",
     subItems: [
       //COMPONENT value == NAME value
       //PATH value == LINK value
@@ -123,20 +123,20 @@ export const menuItems = [
         id: 2,
         label: "View Income",
         icon: "ri-eye-line",
-        link: "/ajan/view-projects",
+        link: "/income/view",
       },
       {
         id: 4,
         label: "Manage Income",
         icon: "ri-shield-star-line",
-        link: "/ajan/popular-designs",
+        link: "/income/manage",
       },
     ]
   },
   {
     id: 9,
     label: "Savings",
-    icon: "ri-link",
+    icon: "ri-mastercard-fill",
     subItems: [
       //COMPONENT value == NAME value
       //PATH value == LINK value
@@ -144,26 +144,26 @@ export const menuItems = [
         id: 2,
         label: "View Savings",
         icon: "ri-eye-line",
-        link: "/ajan/view-projects",
+        link: "/savings/view",
       },
       {
         id: 4,
         label: "Manage Products",
         icon: "ri-shield-star-line",
-        link: "/ajan/popular-designs",
+        link: "/savings/manage",
       },
       {
         id: 4,
         label: "Manage Charges",
         icon: "ri-shield-star-line",
-        link: "/ajan/popular-designs",
+        link: "/savings/charges",
       },
     ]
   },
   {
     id: 9,
     label: "Users",
-    icon: "ri-link",
+    icon: "ri-group-fill",
     subItems: [
       //COMPONENT value == NAME value
       //PATH value == LINK value
@@ -171,13 +171,13 @@ export const menuItems = [
         id: 2,
         label: "View Users",
         icon: "ri-eye-line",
-        link: "/ajan/view-projects",
+        link: "/users/view",
       },
       {
         id: 4,
         label: "Manage Roles",
         icon: "ri-shield-star-line",
-        link: "/ajan/popular-designs",
+        link: "/users/manage",
       },
     ]
   },
@@ -190,14 +190,14 @@ export const menuItems = [
   {
     id: 4,
     label: "Activity Logs",
-    icon: "ri-file-list-line",
-    link: "/kaufer/documents",
+    icon: "ri-history-fill",
+    link: "/logs",
   },
   {
     id: 5,
     label: "Reports",
-    icon: "ri-wallet-3-line",
-    link: "/kaufer/contribution",
+    icon: "ri-file-chart-fill",
+    link: "/reports",
   },
   // {
   //   id: 6,

@@ -309,23 +309,12 @@ export default {
             <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
           </template>
           <!-- item-->
-          <a class="dropdown-item" href="#">
-            <i class="ri-user-line align-middle mr-1"></i>
+          <router-link to="/kaufer/profile" custom v-slot="{ navigate }">
+              <button @click="navigate" role="link" class="btn btn-sm btn-primary btn-edit d-flex dropdown-item">
+                <i class="ri-user-line align-middle mr-1"></i>
             {{ $t('navbar.dropdown.kevin.list.profile') }}
-          </a>
-          <a class="dropdown-item" href="#">
-            <i class="ri-wallet-2-line align-middle mr-1"></i>
-            {{ $t('navbar.dropdown.kevin.list.mywallet') }}
-          </a>
-          <a class="dropdown-item d-block" href="#">
-            <!-- <span class="badge badge-success float-right mt-1">11</span> -->
-            <i class="ri-settings-2-line align-middle mr-1"></i>
-            {{ $t('navbar.dropdown.kevin.list.settings') }}
-          </a>
-          <a class="dropdown-item" href="#">
-            <i class="ri-lock-unlock-line align-middle mr-1"></i>
-            {{ $t('navbar.dropdown.kevin.list.lockscreen') }}
-          </a>
+              </button>
+            </router-link>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item text-danger" href="/logout">
             <i class="ri-shut-down-line align-middle mr-1 text-danger"></i>
