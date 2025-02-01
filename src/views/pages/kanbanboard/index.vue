@@ -22,7 +22,7 @@ export default {
       title: "Kanban Board",
       items: [
         {
-          text: "Nazox",
+          text: "Boresha Maisha",
           href: "/",
         },
         {
