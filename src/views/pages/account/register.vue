@@ -201,7 +201,7 @@ export default {
                       <div class="mt-2 text-center">
                         <p>
                           Already have an account ?
-                          <router-link tag="a" to="/login" class="font-weight-medium text-primary">Login</router-link>
+                          <router-link tag="a" to="/" class="font-weight-medium text-primary">Login</router-link>
                         </p>
                         <!-- <p>
                           © 2023 <span style="color: #FFA500;">Boresha Maisha.</span>
