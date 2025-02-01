@@ -1,5 +1,5 @@
 <script>
-import Layout from "@/views/layouts/main_buyer";
+import Layout from "@/views/layouts/main";
 import PageHeader from "@/components/page-header";
 
 import Stat from "./widget";

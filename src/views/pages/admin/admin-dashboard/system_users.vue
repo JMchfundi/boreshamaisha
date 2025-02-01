@@ -3,7 +3,7 @@
 </style>
 <script>
 import PageHeader from "@/components/page-header";
-import Layout from "@/views/layouts/main_buyer";
+import Layout from "@/views/layouts/main";
 // import B_table from "../admin-dashboard/b_table.vue";
 import Buyers_Table from "@/views/pages/dev-dashboard/sys_users.vue"
 

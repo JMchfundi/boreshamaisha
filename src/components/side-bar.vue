@@ -100,6 +100,10 @@ export default {
             currentPosition + 200;
       }, 300);
     },
+    setlable(item){
+      localStorage.setItem(item.key, JSON.stringify(item.label))
+      console.log(localStorage.getItem(item.key))
+    }
   },
   watch: {
     $route: {
@@ -204,6 +208,7 @@ export default {
               </a>
 
               <router-link
+              @click.native="setlable(item)"
                 :to="item.link"
                 v-if="!hasItems(item)"
                 class="side-nav-link-ref"
@@ -220,7 +225,8 @@ export default {
               <ul v-if="hasItems(item)" class="sub-menu" aria-expanded="false">
                 <li v-for="(subitem, index) of item.subItems" :key="index">
                   <router-link
-                    :to="subitem.link"
+                  @click.native="setlable(item)"
+                  :to="subitem.link"
                     v-if="!hasItems(subitem)"
                     class="side-nav-link-ref"
                     >{{ $t(subitem.label) }}</router-link
@@ -241,7 +247,8 @@ export default {
                       :key="index"
                     >
                       <router-link
-                        :to="subSubitem.link"
+                      @click.native="setlable(item)"
+                      :to="subSubitem.link"
                         class="side-nav-link-ref"
                         >{{ $t(subSubitem.label) }}</router-link
                       >

@@ -3,7 +3,7 @@
 </style>
 <script>
 import PageHeader from "@/components/page-header";
-import Layout from "@/views/layouts/main_buyer";
+import Layout from "@/views/layouts/main";
 // import B_Table from "../agent-dashboard/b_table";
 import P_Table from "../../../components/tables/projects_table"
 

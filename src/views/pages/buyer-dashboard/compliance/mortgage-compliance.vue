@@ -25,7 +25,7 @@ select {
 </style>
 <script>
 import PageHeader from "@/components/page-header";
-import Layout from "../../../layouts/main_buyer";
+import Layout from "../../../layouts/main";
 import Applicant_Form from "../../buyer-dashboard/compliance/applicant-details";
 import Residential_Form from "../../buyer-dashboard/compliance/residential-details";
 import Employment_Details from "../../buyer-dashboard/compliance/employment-details";

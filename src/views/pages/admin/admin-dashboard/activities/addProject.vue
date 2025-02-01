@@ -5,7 +5,7 @@
 </style>
 <script>
 import PageHeader from "@/components/page-header";
-import Layout from "@/views/layouts/main_buyer";
+import Layout from "@/views/layouts/main";
 import BasicInfo from "../../admin-dashboard/activities/basicInfo";
 
 export default {

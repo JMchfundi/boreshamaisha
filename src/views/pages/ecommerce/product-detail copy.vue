@@ -1,5 +1,5 @@
 <script>
-import Layout from "../../layouts/main_buyer";
+import Layout from "../../layouts/main";
 import PageHeader from "@/components/page-header";
 
 /**

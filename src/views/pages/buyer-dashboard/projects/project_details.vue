@@ -1,6 +1,6 @@
 <script>
 import PageHeader from "@/components/page-header";
-import Layout from "../../../layouts/main_buyer";
+import Layout from "../../../layouts/main";
 import Details from "../../buyer-dashboard/projects/details"
 
 export default {

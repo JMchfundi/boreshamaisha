@@ -112,7 +112,7 @@ hr {
 <script>
 import PageHeader from "@/components/page-header";
 import Layout from "../../layouts/main";
-// import Layout from "../../../layouts/main_buyer";
+// import Layout from "../../../layouts/main";
 import Personal_Info from "../buyer-dashboard/profile/person_details";
 import EmploymentDetails from "../buyer-dashboard/profile/employment_details";
 import KYC_Docs_upload from "../buyer-dashboard/profile/kyc_docs_upload";

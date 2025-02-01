@@ -145,6 +145,16 @@ export default [
       component: () => import("../views/pages/accounting/je"),
     },
 
+        // Admin Index/Dashboard
+        {
+          path: "/centres",
+          name: "home",
+          // meta: {
+          //   authRequired: true, adminAuthRequired: true
+          // },
+          component: () => import("../views/pages/centres/centres"),
+        },
+
   // Admin menu
   {
     path: "/Xingzheng/reg_buyers",

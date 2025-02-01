@@ -2,7 +2,7 @@
 </style>
 <script>
 import PageHeader from "@/components/page-header";
-import Layout from "@/views/layouts/main_buyer";
+import Layout from "@/views/layouts/main";
 import B_Table from "../dev-dashboard/b_table";
 // import Operations from "../buyer-dashboard/buyer-operations"
 

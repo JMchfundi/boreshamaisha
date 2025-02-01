@@ -43,7 +43,7 @@ select {
 }
 </style>
 <script>
-import Layout from "../../../../layouts/main_buyer";
+import Layout from "../../../../layouts/main";
 import PageHeader from "@/components/page-header";
 import Citizen_info from "../editProfile/citizen_category";
 import Personal_info from "../editProfile/personal_info";

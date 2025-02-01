@@ -33,7 +33,7 @@ thead {
 </style>
 <script>
 import PageHeader from "@/components/page-header";
-import Layout from "../../../layouts/main_buyer";
+import Layout from "../../../layouts/main";
 import Docs_table from "../documents/b_table"
 
 export default {

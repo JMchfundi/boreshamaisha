@@ -69,7 +69,7 @@ input[type=number]:focus {
 </style>
 <script>
 // import PageHeader from "@/components/page-header";
-// import Layout from "../../../layouts/main_buyer";
+// import Layout from "../../../layouts/main";
 // import { documentsFunctions } from '@/helpers/fakebackend/doc.service';
 import { productFunctions } from "@/helpers/fakebackend/product.service";
 // import vueCountriesCities from "vue-countries-cities";

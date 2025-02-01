@@ -45,7 +45,7 @@ thead {
 </style>
 <script>
 import PageHeader from "@/components/page-header";
-import Layout from "../../../layouts/main_buyer";
+import Layout from "../../../layouts/main";
 import Refund_tab from "../refund/b_table"
 import swal from "sweetalert";
 

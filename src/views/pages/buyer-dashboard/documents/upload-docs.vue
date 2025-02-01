@@ -20,7 +20,7 @@ select:focus {
 </style>
 <script>
 import PageHeader from "@/components/page-header";
-import Layout from "../../../layouts/main_buyer";
+import Layout from "../../../layouts/main";
 import { documentsFunctions } from '@/helpers/fakebackend/doc.service';
 import {
   required,

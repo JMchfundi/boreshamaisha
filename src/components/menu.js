@@ -8,20 +8,20 @@ export const menuItems = [
   //   isTitle: true,
   // },
   {
-    id: 2,
+    id: 1,
     label: "menuitems.dashboard.text",
     icon: "ri-dashboard-line",
     link: "/kaufer/dashboard",
   },
   {
-    id: 9,
+    id: 2,
     label: "Accounting",
     icon: "ri-wallet-3-line",
     subItems: [
       //COMPONENT value == NAME value
       //PATH value == LINK value
       {
-        id: 2,
+        id: 3,
         label: "Chart of Accounts",
         // icon: "ri-eye-line",
         link: "/accounting/coa",
@@ -35,56 +35,56 @@ export const menuItems = [
     ]
   },
   {
-    id: 4,
+    id: 5,
     label: "Centres",
     icon: "ri-building-line",
     link: "/centres",
   },
   {
-    id: 4,
+    id: 6,
     label: "Clients",
     icon: "ri-group-2-fill",
     link: "/clients",
   },
   {
-    id: 9,
+    id: 7,
     label: "Loans",
     icon: "ri-bank-fill",
     subItems: [
       //COMPONENT value == NAME value
       //PATH value == LINK value
       {
-        id: 2,
+        id: 8,
         label: "Outstanding - OLBs",
         icon: "ri-eye-line",
         link: "/loans/olb",
       },
       {
-        id: 4,
+        id: 9,
         label: "Applications",
         icon: "ri-shield-star-line",
         link: "/loans/app",
       },
       {
-        id: 2,
+        id: 10,
         label: "Repayments",
         icon: "ri-eye-line",
         link: "/loans/rep",
       },
       {
-        id: 4,
+        id: 11,
         label: "Products",
         icon: "ri-shield-star-line",
         link: "/loans/prod",
       },
       {
-        id: 2,
+        id: 12,
         label: "Cash Register",
         icon: "ri-eye-line",
         link: "/loans/cashreg",
       },
       {
-        id: 4,
+        id: 13,
         label: "Loan Provisioning",
         icon: "ri-shield-star-line",
         link: "/loans/prov",
@@ -92,20 +92,20 @@ export const menuItems = [
     ]
   },
   {
-    id: 9,
+    id: 14,
     label: "Expenses",
     icon: "ri-wallet-2-fill",
     subItems: [
       //COMPONENT value == NAME value
       //PATH value == LINK value
       {
-        id: 2,
+        id: 15,
         label: "View Expenses",
         icon: "ri-eye-line",
         link: "/expenses/view",
       },
       {
-        id: 4,
+        id: 16,
         label: "Manage Expenses",
         icon: "ri-shield-star-line",
         link: "/expenses/manage",
@@ -113,20 +113,20 @@ export const menuItems = [
     ]
   },
   {
-    id: 9,
+    id: 17,
     label: "Income",
     icon: "ri-bank-card-fill",
     subItems: [
       //COMPONENT value == NAME value
       //PATH value == LINK value
       {
-        id: 2,
+        id: 18,
         label: "View Income",
         icon: "ri-eye-line",
         link: "/income/view",
       },
       {
-        id: 4,
+        id: 19,
         label: "Manage Income",
         icon: "ri-shield-star-line",
         link: "/income/manage",
@@ -134,26 +134,26 @@ export const menuItems = [
     ]
   },
   {
-    id: 9,
+    id: 20,
     label: "Savings",
     icon: "ri-mastercard-fill",
     subItems: [
       //COMPONENT value == NAME value
       //PATH value == LINK value
       {
-        id: 2,
+        id: 21,
         label: "View Savings",
         icon: "ri-eye-line",
         link: "/savings/view",
       },
       {
-        id: 4,
+        id: 22,
         label: "Manage Products",
         icon: "ri-shield-star-line",
         link: "/savings/manage",
       },
       {
-        id: 4,
+        id: 23,
         label: "Manage Charges",
         icon: "ri-shield-star-line",
         link: "/savings/charges",
@@ -161,20 +161,20 @@ export const menuItems = [
     ]
   },
   {
-    id: 9,
+    id: 24,
     label: "Users",
     icon: "ri-group-fill",
     subItems: [
       //COMPONENT value == NAME value
       //PATH value == LINK value
       {
-        id: 2,
+        id: 25,
         label: "View Users",
         icon: "ri-eye-line",
         link: "/users/view",
       },
       {
-        id: 4,
+        id: 26,
         label: "Manage Roles",
         icon: "ri-shield-star-line",
         link: "/users/manage",
@@ -182,19 +182,19 @@ export const menuItems = [
     ]
   },
   {
-    id: 3,
+    id: 27,
     label: "My Profile",
     icon: "ri-account-circle-line",
     link: "/kaufer/profile",
   },
   {
-    id: 4,
+    id: 28,
     label: "Activity Logs",
     icon: "ri-history-fill",
     link: "/logs",
   },
   {
-    id: 5,
+    id: 29,
     label: "Reports",
     icon: "ri-file-chart-fill",
     link: "/reports",
@@ -206,12 +206,12 @@ export const menuItems = [
   //   link: "/kaufer/refund/process/reimbursement",
   // },
   {
-    id: 12,
+    id: 30,
     label: "Admin's Activities",
     icon: "ri-admin-line",
     subItems: [
       {
-        id: 1,
+        id: 31,
         label: "menuitems.menu.text",
         isTitle: true,
       },
@@ -222,13 +222,13 @@ export const menuItems = [
       //   link: "/Xingzheng/dashboard",
       // },
       {
-        id: 3,
+        id: 32,
         label: "System Users",
         icon: "ri-shield-user-line",
         link: "/Xingzheng/reg_buyers",
       },
       {
-        id: 20,
+        id: 33,
         label: "View Projects",
         icon: "ri-question-line",
         link: "/Xingzheng/support",

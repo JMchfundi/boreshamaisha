@@ -48,7 +48,7 @@ select {
 </style>
 <script>
 import PageHeader from "@/components/page-header";
-import Layout from "../../../layouts/main_buyer";
+import Layout from "../../../layouts/main";
 // import Personal_Details from "../refund/personal-details";
 import Personal_Details from "../../buyer-dashboard/refund/personal-details";
 // import Bank_Details from "../refund/bank-details";

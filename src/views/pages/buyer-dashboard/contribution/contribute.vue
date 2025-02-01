@@ -15,7 +15,7 @@ h6 {
 </style>
 <script>
 import PageHeader from "@/components/page-header";
-import Layout from "../../../layouts/main_buyer";
+import Layout from "../../../layouts/main";
 import VCreditCard from "v-credit-card";
 import 'v-credit-card/dist/VCreditCard.css';
 

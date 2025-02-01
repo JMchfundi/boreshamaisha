@@ -36,7 +36,7 @@ thead {
 
 <script>
 import PageHeader from "@/components/page-header";
-import Layout from "../../../layouts/main_buyer";
+import Layout from "../../../layouts/main";
 import Deposits_tab from "../contribution/b_table"
 import { StripeCheckout } from '@vue-stripe/vue-stripe';
 import swal from "sweetalert";

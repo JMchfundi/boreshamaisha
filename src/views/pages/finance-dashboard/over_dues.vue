@@ -3,7 +3,7 @@
 </style>
 <script>
 import PageHeader from "@/components/page-header";
-import Layout from "@/views/layouts/main_buyer";
+import Layout from "@/views/layouts/main";
 // import B_Table from "../finance-dashboard/b_table";
 import Loan_Overdues from "../finance-dashboard/overdues-table"
 

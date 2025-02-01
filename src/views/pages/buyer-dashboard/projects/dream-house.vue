@@ -1,6 +1,6 @@
 <script>
 import PageHeader from "@/components/page-header";
-import Layout from "../../../layouts/main_buyer";
+import Layout from "../../../layouts/main";
 
 export default {
   components: {
