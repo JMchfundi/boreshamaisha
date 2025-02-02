@@ -227,7 +227,7 @@ export default [
     // meta: {
     //   authRequired: true,
     // },
-    component: () => import("../views/pages/buyer-dashboard/index_buyer.vue"),
+    component: () => import("../views/pages/admin/index"),
   },
   {
     path: "/kaufer/profile",
