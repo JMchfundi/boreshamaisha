@@ -66,7 +66,7 @@ export default {
               <div class="w-100">
                 <div class="row justify-content-center">
                   <div class="col-lg-9">
-                    <p class="text-capitalize text-center mt-3 font-size-24">Boresha Maisha</p>
+                    <p class="text-capitalize text-center mt-3 font-size-24">FinSis</p>
                   </div>
                 </div>
               </div>
@@ -111,7 +111,7 @@ export default {
                           <router-link tag="a" to="/login" class="font-weight-medium text-primary">Log in</router-link>
                         </p>
                         <!-- <p>
-                          © 2023 <span style="color: #FFA500;">Boresha Maisha.</span>
+                          © 2023 <span style="color: #FFA500;">FinSis.</span>
                         </p> -->
                       </div>
                       <div class="col-12">

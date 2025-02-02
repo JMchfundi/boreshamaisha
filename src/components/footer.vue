@@ -3,7 +3,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-6 ">
-          <span class="font-weight-bolder text-dark">2022 © Boresha Maisha.</span> All Rights reserved
+          <span class="font-weight-bolder text-dark">2022 © FinSis.</span> All Rights reserved
         </div>
         <div class="col-sm-6">
           <div class="text-sm-right d-none d-sm-block">

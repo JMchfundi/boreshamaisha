@@ -138,7 +138,7 @@ export default {
               <div class="w-100">
                 <div class="row justify-content-center">
                   <div class="col-lg-9">
-                    <p class="text-capitalize text-center mt-2 font-size-24 fonnt_color">Boresha Maisha</p>
+                    <p class="text-capitalize text-center mt-2 font-size-24 fonnt_color">FinSis</p>
                   </div>
                 </div>
               </div>

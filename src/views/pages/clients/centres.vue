@@ -21,7 +21,7 @@ export default {
       title: 'Centres',
       items: [
         {
-          text: 'Boresha Maisha',
+          text: 'FinSis',
         },
         {
           text: 'Centres',

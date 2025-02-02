@@ -21,7 +21,7 @@ export default {
       title: 'Accounting',
       items: [
         {
-          text: 'Boresha Maisha',
+          text: 'FinSis',
         },
         {
           text: 'Accounting',

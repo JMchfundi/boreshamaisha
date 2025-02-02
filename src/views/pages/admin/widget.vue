@@ -7,25 +7,33 @@ export default {
     return {
       statData: [
         {
-          title: "Number of Sales",
-          icon: "ri-stack-line",
-          value: "1452",
+          title: "Centres",
+          icon: "ri-building-line",
+          value: "10",
           // subvalue: {
           //   icon: "ri-stack-line"
           // }
         },
         {
-          title: "Sales Revenue",
-          icon: "ri-store-2-line",
-          value: "$ 38452",
+          title: "Clients",
+          icon: "ri-group-2-fill",
+          value: "9789",
           // subvalue: {
           //   icon: "ri-stack-line"
           // }
         },
         {
-          title: "Average Price",
-          icon: "ri-briefcase-4-line",
-          value: "$ 15.4",
+          title: "New Clients",
+          icon: "ri-file-add-fill",
+          value: "542",
+          // subvalue: {
+          //   icon: "ri-stack-line"
+          // }
+        },
+        {
+          title: "Closed Clients",
+          icon: "ri-file-reduce-fill",
+          value: "54",
           // subvalue: {
           //   icon: "ri-stack-line"
           // }
@@ -38,7 +46,7 @@ export default {
 
 <template>
   <div class="row">
-    <div class="col-md-4" v-for="(data, index) in statData" :key="index">
+    <div class="col-md-3" v-for="(data, index) in statData" :key="index">
       <div class="card">
         <div class="card-body">
           <div class="media">
@@ -48,23 +56,6 @@ export default {
             </div>
             <div class="text-primary">
               <i :class="`${data.icon} font-size-24`"></i>
-            </div>
-          </div>
-        </div>
-
-        <div class="card-body border-top py-3">
-          <div class="text-truncate d-flex">
-            <!-- <span class="badge badge-soft-success font-size-11 mr-1">
-              <i class="" :class="`${data.icon}`"></i>
-               {{data.subvalue}} 
-            </span> -->
-            <!-- <span class="text-muted ml-2">Per Month</span> -->
-            <div class="float-right d-none d-md-inline-block">
-              <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-light active">Today</button>
-                <button type="button" class="btn btn-sm btn-light">Weekly</button>
-                <button type="button" class="btn btn-sm btn-light">Monthly</button>
-              </div>
             </div>
           </div>
         </div>
