@@ -130,7 +130,7 @@ export default {
     <!-- <BtnLoader/> -->
     <!-- <BTNSPINNER/> -->
     <!-- <BtnSubmit/> -->
-    <div class="min-vh-100">
+    <div class="min-vh-100" style="padding-top: 250px;">
       <div class="container-fluid">
         <div class="row no-gutters d-flex justify-content-center">
           <div class="col-lg-4 bg-light rounded-bottom">
@@ -199,13 +199,13 @@ export default {
                                 <label class="custom-control-label" for="customControlInline">Remember me</label>
                               </div>
                             </div>
-                            <div class="col">
+                            <!-- <div class="col">
                               <div class="text-center">
                                 <router-link tag="a" to="/forgot-password">
                                   <i class="mdi mdi-lock text-muted"></i>Forgot password?
                                 </router-link>
                               </div>
-                            </div>
+                            </div> -->
                           </div>
                           <!-- row with login and create account -->
                           <div class="row">
@@ -217,52 +217,16 @@ export default {
                                 </button>
                               </div>
                             </div>
-                            <div class="col">
+                            <!-- <div class="col">
                               <div class="mt-2 text-center"></div>
                               <button class="btn btn-primary btn-sm w-md waves-effect waves-light rounded-pill"
                                 type="submit">
                                 <router-link tag="a" to="/register" class="font-weight-medium text-light">Create
                                   Account</router-link>
                               </button>
-                            </div>
+                            </div> -->
                           </div>
                         </form>
-                      </div>
-                      <div class="row mt-3 justify-content-center pb-2">
-                        <div class="col-12 d-flex justify-content-center align-items-center">
-                          <p class="">
-                            Or you can join with.
-                          </p>
-                        </div>
-                        <div class="row pb-2">
-                          <div class="col">
-                            <div class=" rounded-circle shadow-lg">
-                              <a class="btn btn-light rounded-circle  btn-floating bg-light shadow-lg" href="#"
-                                role="button"><i class="fab fa-google "></i></a>
-                            </div>
-                          </div>
-                          <div class="col">
-                            <div class=" rounded-circle shadow-lg">
-                              <a class="btn btn-primary rounded-circle  btn-floating bg-primary shadow-lg" href="#"
-                                role="button"><i class="fab fa-facebook "></i></a>
-                            </div>
-                          </div>
-                          <div class="col">
-                            <div class=" rounded-circle shadow-lg">
-                              <a class="btn btn-info rounded-circle  btn-floating bg-info shadow-lg" href="#"
-                                role="button"><i class="fab fa-microsoft"></i></a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-12">
-                          <hr class="bg-dark ">
-                        </div>
-
-                        <!-- <div class="col-12 p-0">
-                            <p>
-                              © 2023 <span style="color: #FFA500;">Boresha Maisha.</span>
-                            </p>
-                          </div> -->
                       </div>
                     </div>
                   </div>
