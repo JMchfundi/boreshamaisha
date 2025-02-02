@@ -24,7 +24,7 @@ export const menuItems = [
         id: 3,
         label: "New Group",
         // icon: "ri-eye-line",
-        link: "/accounting/coa",
+        link: "/create/grp",
       },
       {
         id: 4,

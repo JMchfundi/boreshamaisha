@@ -193,6 +193,15 @@ export default [
       import("../views/pages/admin/admin-dashboard/promoters_report"),
   },
   {
+    path: "/create/grp",
+    name: "add_project",
+    // meta: {
+    //   authRequired: true, adminAuthRequired: true
+    // },
+    component: () =>
+      import("../views/pages/admin/admin-dashboard/activities/newgrp"),
+  },
+  {
     path: "/Xingzheng/addProject",
     name: "add_project",
     // meta: {
