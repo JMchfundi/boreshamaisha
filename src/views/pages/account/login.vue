@@ -130,7 +130,7 @@ export default {
     <!-- <BtnLoader/> -->
     <!-- <BTNSPINNER/> -->
     <!-- <BtnSubmit/> -->
-    <div class="min-vh-100" style="padding-top: 250px;">
+    <div class="min-vh-100" style="padding-top: 150px;">
       <div class="container-fluid">
         <div class="row no-gutters d-flex justify-content-center">
           <div class="col-lg-4 bg-light rounded-bottom">
