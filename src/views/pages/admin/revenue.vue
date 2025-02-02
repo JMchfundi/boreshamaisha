@@ -43,18 +43,18 @@ export default {
         },
         colors: ["#5664d2", "#1cbb8c"],
         labels: [
-          "Jan",
-          "Feb",
-          "Mar",
-          "Apr",
-          "May",
-          "Jun",
-          "Jul",
-          "Aug",
-          "Sep",
-          "Oct",
-          "Nov",
-          "Dec"
+          "Client 1",
+          "Client 2",
+          "Client 3",
+          "Client 4",
+          "Client 5",
+          "Client 6",
+          "Client 7",
+          "Client 8",
+          "Client 9",
+          "Client 10",
+          "Client 11",
+          "Client 12"
         ]
       }
     };
@@ -66,13 +66,8 @@ export default {
   <div class="card">
     <div class="card-body">
       <div class="float-right d-none d-md-inline-block">
-        <div class="btn-group mb-2">
-          <button type="button" class="btn btn-sm btn-light">Today</button>
-          <button type="button" class="btn btn-sm btn-light active">Weekly</button>
-          <button type="button" class="btn btn-sm btn-light">Monthly</button>
-        </div>
       </div>
-      <h4 class="card-title mb-4">Revenue Analytics</h4>
+      <h4 class="card-title mb-4">OLBs - Outstanding Loan Balances</h4>
       <div>
         <div id="line-column-chart" class="apex-charts" dir="ltr"></div>
         <apexchart
