@@ -4,12 +4,31 @@
 <script>
 import PageHeader from "@/components/page-header";
 import Layout from "../../layouts/main";
+import Stat from "../admin/widget";
+import RevenueAnalytics from "../admin/revenue";
+import SalesAnalytics from "../admin/sales-analytics";
+import EarningReport from "../admin/earning";
+// import Sources from "./sources";
+// import RecentActivity from "./recent-activity";
+// import RevenueLocation from "./revenue-location";
+// import Chat from "./chat";
+// import Transaction from '../admin/transaction';
+
 
 
 export default {
   components: {
     PageHeader,
     Layout,
+    Stat,
+    RevenueAnalytics,
+    SalesAnalytics,
+    EarningReport,
+    // Sources,
+    // RecentActivity,
+    // RevenueLocation,
+    // Chat,
+    // Transaction
   },
   data() {
     return {
@@ -68,40 +87,36 @@ export default {
 </script>
 <template>
   <Layout>
-    <div class="main">
-      <PageHeader :title="title" :items="items" />
-      <hr class="mt-0">
-      <div class="row">
-        <div class="col" v-for="(data, index) in statData" :key="index">
-          <div class="card">
-            <div class="card-body pb-0">
-              <div class="media">
-                <!-- <div class="mr-2" :color="`${data.colors}`">
-                  <i :class="`${data.icon} `"  style="font-size: 4em"></i>
-                </div> -->
-                <div class="media-body overflow-hidden p-0">
-                  <p class="text-truncate font-size-14">{{ data.title }}</p>
-                  <h4 class="mb-0">{{ data.value }}</h4>
-                </div>
-                <div class="mr-2" v-bind:color="`${data.colors}`">
-                  <i :class="`${data.icon}`"  style="font-size: 4em"></i>
-                </div>
-              </div>
-            </div>
-            <div class="card-body border-top py-2">             
-                <div class="text-truncate btn btn-sm w-100 d-flex pl-0" @click="$router.push(data.link)">
-                <span class="badge badge-soft-success d-flex align-items-center">
-                  <i class="" :class="`${data.sub_icon}`"></i>
-                  <!-- {{data.subvalue}} -->
-                </span>
-                <span class="text-muted ml-1">{{ data.subtitle }}</span>
-              </div>
-              
-            </div>
-          </div>
-        </div>
+    <PageHeader :title="title" :items="items" />
+    <hr class="mt-0">
+    <div class="row">
+      <div class="col-xl-8">
+        <Stat />
+        <RevenueAnalytics />
       </div>
-      <!-- end row -->
+      <div class="col-xl-4">
+        <SalesAnalytics />
+        <EarningReport />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <Sources />
+      </div>
+      <div class="col-lg-4">
+        <RecentActivity />
+      </div>
+      <div class="col-lg-4">
+        <RevenueLocation />
+      </div>
+    </div>
+    <div class="row">
+      <!-- <div class="col-lg-4">
+        <Chat />
+      </div> -->
+      <!-- <div class="col">
+        <Transaction />
+      </div> -->
     </div>
   </Layout>
 </template>

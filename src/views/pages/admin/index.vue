@@ -10,7 +10,8 @@ import EarningReport from "./earning";
 // import RecentActivity from "./recent-activity";
 // import RevenueLocation from "./revenue-location";
 // import Chat from "./chat";
-import Transaction from './transaction';
+import Transaction from '@/views/pages/dev-dashboard/sys_users.vue';
+// import Buyers_Table from "@/views/pages/dev-dashboard/sys_users.vue"
 
 /**
  * Dashboard component
