@@ -9,7 +9,7 @@ export const menuItems = [
   // },
   {
     id: 1,
-    label: "menuitems.dashboard.text",
+    label: "Dashboard",
     icon: "ri-dashboard-line",
     link: "/kaufer/dashboard",
   },
