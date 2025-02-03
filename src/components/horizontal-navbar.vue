@@ -126,8 +126,8 @@ export default {
                       <div class="arrow-down"></div>
                     </a>
                     <div class="dropdown-menu">
-                      <router-link @click.native="setlable(subSubitem.label)" v-for="(subSubitem, index) of subitem.subItems"
-                        :key="index" :to="subSubitem.link" class="dropdown-item side-nav-link-ref">{{
+                      <router-link v-for="(subSubitem, index) of subitem.subItems"
+                        :key="index" :to="subSubitem.link" @click.native="setlable(subSubitem.label)" class="dropdown-item side-nav-link-ref">{{
                           $t(subSubitem.label) }}</router-link>
                     </div>
                   </div>
