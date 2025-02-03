@@ -193,7 +193,7 @@ export default [
       import("../views/pages/admin/admin-dashboard/promoters_report"),
   },
   {
-    path: "/create/grp",
+    path: "/form",
     name: "add_project",
     // meta: {
     //   authRequired: true, adminAuthRequired: true

@@ -24,13 +24,13 @@ export const menuItems = [
         id: 3,
         label: "New Group",
         // icon: "ri-eye-line",
-        link: "/create/grp",
+        link: "/form",
       },
       {
         id: 4,
         label: "New Client",
         // icon: "ri-shield-star-line",
-        link: "/accounting/je",
+        link: "/form",
       },
       {
         id: 44,
@@ -43,7 +43,7 @@ export const menuItems = [
             id: 344,
             label: "Loan Creation",
             // icon: "ri-eye-line",
-            link: "/accounting/coa",
+            link: "/form",
           },
           {
             id: 444,

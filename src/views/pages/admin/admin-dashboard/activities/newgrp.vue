@@ -6,13 +6,15 @@
 <script>
 import PageHeader from "@/components/page-header";
 import Layout from "@/views/layouts/main";
-import BasicInfo from "../../admin-dashboard/activities/newgrpdata.vue";
+import Newgrpform from "./newgrpform.vue";
+import Newclientform from "./newclientform.vue";
 
 export default {
   components: {
     PageHeader,
     Layout,
-    BasicInfo
+    Newgrpform,
+    Newclientform
     // LocationInfo,
     // ImageProject
   },
@@ -46,7 +48,8 @@ export default {
   <Layout>
     <div class="main">
       <PageHeader :title="title" :items="items" />
-      <BasicInfo v-if="this.clickedmenu == 'New Group'"></BasicInfo>
+      <Newgrpform v-if="this.clickedmenu == 'New Group'"></Newgrpform>
+      <Newclientform v-if="this.clickedmenu == 'New Client'"></Newclientform>
     </div>
   </Layout>
 </template>
