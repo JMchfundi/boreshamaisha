@@ -1,7 +1,7 @@
 <script>
 import { layoutMethods } from "@/state/helpers";
 import { menuItems } from "./menu";
-import swal from "sweetalert";
+// import swal from "sweetalert";
 
 export default {
   data() {
@@ -49,13 +49,13 @@ export default {
   methods: {
     ...layoutMethods,
     setlable(value) {
+      // swal({
+      //   icon: "success",
+      //   text: value + " selected",
+      //   timer: 1500,
+      //   buttons: false,
+      // })
       localStorage.setItem("clickedmenu", value)
-      swal({
-        icon: "success",
-        text: value + " selected",
-        timer: 1500,
-        buttons: false,
-      })
     },
     /**
      * Menu clicked show the submenu
