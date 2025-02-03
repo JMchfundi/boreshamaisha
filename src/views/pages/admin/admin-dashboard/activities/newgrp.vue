@@ -28,10 +28,18 @@ export default {
           text: 'Project',
           active: true
         },
-
       ],
+      clickedmenu: "",
     };
   },
+  mounted() {
+    this.getClickedMenu();
+  },
+  methods: {
+    getClickedMenu() {
+      this.clickedmenu = localStorage.getItem("clickedmenu")
+    },
+  }
 };
 </script>
 <template>
@@ -62,7 +70,7 @@ export default {
                         <span class="text-right"><i class="ri-information-fill p-icon"></i></span>
                       </a>
                     </h6>
-                    <BasicInfo></BasicInfo>
+                    <BasicInfo v-if="clickedmenu == 'New Group'"></BasicInfo>
                   </b-card-header>
                 </b-card>
 

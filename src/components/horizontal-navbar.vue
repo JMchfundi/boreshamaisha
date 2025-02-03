@@ -49,7 +49,6 @@ export default {
     ...layoutMethods,
     setlable(value) {
       localStorage.setItem("clickedmenu", value)
-      console.log(localStorage.getItem("clickedmenu"))
     },
     /**
      * Menu clicked show the submenu
