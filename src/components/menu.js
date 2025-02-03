@@ -138,26 +138,26 @@ export const menuItems = [
         link: "/loans/prov",
       },
       {
-        id: 12,
+        id: 127,
         label: "Inventory",
         icon: "ri-eye-line",
         link: "/loans/cashreg",
       },
       {
-        id: 13,
+        id: 137,
         label: "Forecasting",
         icon: "ri-shield-star-line",
         link: "/loans/prov",
       },
       {
-        id: 13,
+        id: 13713,
         label: "Bulk action reports",
         icon: "ri-shield-star-line",
         subItems: [
           //COMPONENT value == NAME value
           //PATH value == LINK value
           {
-            id: 8,
+            id: 813713,
             label: "Bulk action reports",
             icon: "ri-eye-line",
             link: "/loans/olb",

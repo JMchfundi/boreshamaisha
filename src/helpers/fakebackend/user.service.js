@@ -70,7 +70,7 @@ function login(email, password) {
         // else return error
         reject("These credentials do not match our records.");
       }
-
+      
       return;
       // return axios.post(API_URL+'login_request', {email: email, password: password})
       // .then(response => {
