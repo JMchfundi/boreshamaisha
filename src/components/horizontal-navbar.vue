@@ -1,7 +1,7 @@
 <script>
 import { layoutMethods } from "@/state/helpers";
 import { menuItems } from "./menu";
-// import swal from "sweetalert";
+import swal from "sweetalert";
 
 export default {
   data() {
@@ -46,16 +46,18 @@ export default {
       }
     }
   },
+  
   methods: {
     ...layoutMethods,
     setlable(value) {
-      // swal({
-      //   icon: "success",
-      //   text: value + " selected",
-      //   timer: 1500,
-      //   buttons: false,
-      // })
+      swal({
+        icon: "success",
+        text: value + " selected",
+        timer: 750,
+        buttons: false,
+      })
       localStorage.setItem("clickedmenu", value)
+      // console.log(localStorage.getItem("clickedmenu"))
     },
     /**
      * Menu clicked show the submenu
@@ -104,7 +106,7 @@ export default {
         <div class="collapse navbar-collapse" id="topnav-menu-content">
           <ul class="navbar-nav">
             <li class="nav-item dropdown" v-for="(item, index) of menuItems" :key="index">
-              <router-link v-on:click.capture="setlable(item.label)" tag="a" v-if="!item.subItems" :to="item.link"
+              <router-link @click.native.capture="setlable(item.label)" tag="a" v-if="!item.subItems" :to="item.link"
                 class="nav-link  arrow-none">
                 <i :class="`${item.icon} mr-2`"></i>
                 {{ $t(item.label) }}
@@ -117,7 +119,7 @@ export default {
               </a>
               <div class="dropdown-menu row" aria-labelledby="topnav-dashboard" v-if="hasItems(item)">
                 <template v-for="(subitem) of item.subItems">
-                  <router-link v-on:click.capture="setlable(subitem.label)" :key="subitem.id"
+                  <router-link @click.native.capture="setlable(subitem.label)" :key="subitem.id"
                     class="col dropdown-item side-nav-link-ref" v-if="!hasItems(subitem)"
                     :to="subitem.link">{{ $t(subitem.label) }}</router-link>
                   <div class="dropdown" v-if="hasItems(subitem)" :key="subitem.id">
@@ -127,7 +129,7 @@ export default {
                     </a>
                     <div class="dropdown-menu">
                       <router-link v-for="(subSubitem, index) of subitem.subItems"
-                        :key="index" :to="subSubitem.link" v-on:click.capture="setlable(subSubitem.label)" class="dropdown-item side-nav-link-ref">{{
+                        :key="index" :to="subSubitem.link" @click.native.capture="setlable(subSubitem.label)" class="dropdown-item side-nav-link-ref">{{
                           $t(subSubitem.label) }}</router-link>
                     </div>
                   </div>

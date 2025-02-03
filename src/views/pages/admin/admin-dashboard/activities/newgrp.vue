@@ -46,7 +46,7 @@ export default {
   <Layout>
     <div class="main">
       <PageHeader :title="title" :items="items" />
-      <BasicInfo v-if="clickedmenu == 'New Group'"></BasicInfo>
+      <BasicInfo v-if="this.clickedmenu == 'New Group'"></BasicInfo>
     </div>
   </Layout>
 </template>

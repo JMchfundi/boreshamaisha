@@ -93,5 +93,6 @@ export const mutations = {
     registerFailure(state) {
         state.status = {};
     }
+    
 };
 
