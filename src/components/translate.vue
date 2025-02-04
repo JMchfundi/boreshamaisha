@@ -34,6 +34,12 @@ export default {
           code: 'en|ar',
           title: 'Arabic',
         },
+        {
+          code: 'en|sw',
+          title: 'Swahili',
+          flagIconUrl: 'https://avatars.githubusercontent.com/u/26702736?v=4',
+          altText: 'Swahili language translation',
+        },
         // {
         //   code: 'en|ko',
         //   title: 'Korean',

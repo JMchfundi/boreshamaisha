@@ -58,6 +58,7 @@ export default {
       })
       localStorage.setItem("clickedmenu", value)
       window.location.replace(link);
+      // window.location.reload(link); alert("before reload");
       // window.location.reload();
       // console.log(localStorage.getItem("clickedmenu"))
     },
