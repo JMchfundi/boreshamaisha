@@ -12,7 +12,7 @@ import VueCarousel from 'vue-carousel';
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
-import Vue3TouchEvents from "vue3-touch-events";
+// import Vue3TouchEvents from "vue3-touch-events";
 
 
 // Custom Css
@@ -75,7 +75,7 @@ Vue.component('apexchart', VueApexCharts)
 Vue.use(VueLuxon)
 Vue.use(VueLoadScript)
 Vue.use(VueCarousel)
-Vue.use(Vue3TouchEvents)
+// Vue.use(Vue3TouchEvents)
 
 
 // Filter
