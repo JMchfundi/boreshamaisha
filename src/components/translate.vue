@@ -37,7 +37,7 @@ export default {
         {
           code: 'en|sw',
           title: 'Swahili',
-          flagIconUrl: 'https://avatars.githubusercontent.com/u/26702736?v=4',
+          flagIconUrl: 'https://img.icons8.com/?size=48&id=1ZDex9dMvi8E&format=png',
           altText: 'Swahili language translation',
         },
         // {
