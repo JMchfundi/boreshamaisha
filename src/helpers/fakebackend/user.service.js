@@ -7,6 +7,7 @@ const API_URL = "https://boreshamaisha-fjc5e0d4e2argfa7.uaenorth-01.azurewebsite
 // ttshousingapi.azurewebsites.net
 // const API_URL = "http://localhost/";
 
+axios.defaults.headers.common['Authorization'] = 'Bearer ' + JSON.parse(localStorage.getItem('user')).token; 
 //import api from "../../helpers/fakebackend/authenticate";
 
 export const userService = {
