@@ -39,6 +39,15 @@ function login(email, password) {
           timer: 1500,
           buttons: false,
         });
+
+          // if login details are valid return user details and fake jwt token
+          let user = {
+            token: filteredUsers.data,
+          };
+          resolve({
+            ok: true,
+            text: () => Promise.resolve(JSON.stringify(user)),
+          });
       } else
         swal({
           icon: "error",
@@ -47,29 +56,7 @@ function login(email, password) {
           buttons: false,
         });
 
-      var element = filteredUsers.data
-        console.log(element.email === email)
-
-      console.log("From user service"+JSON.stringify(filteredUsers))
-
-      if (element.email === email) {
-        // if login details are valid return user details and fake jwt token
-        var user = filteredUsers.data;
-        let responseJson = {
-          id: user.id,
-          username: user.username,
-          email: user.email,
-          rights: user.access,
-          token: "fake-jwt-token",
-        };
-        resolve({
-          ok: true,
-          text: () => Promise.resolve(JSON.stringify(responseJson)),
-        });
-      } else {
-        // else return error
         reject("These credentials do not match our records.");
-      }
       
       return;
       // return axios.post(API_URL+'login_request', {email: email, password: password})
