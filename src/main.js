@@ -9,6 +9,8 @@ import * as VueGoogleMaps from 'vue2-google-maps'
 import VueYoutube from 'vue-youtube'
 import VueLoadScript from "vue-load-script-plus";
 import VueCarousel from 'vue-carousel';
+import axios from 'axios'
+axios.defaults.headers.common['Authorization'] = 'Bearer ' + JSON.parse(localStorage.getItem('user')).token;
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'

@@ -1,6 +1,5 @@
 <script>
 import axios from "axios";
-axios.defaults.headers.common['Authorization'] = 'Bearer ' + JSON.parse(localStorage.getItem('user')).token;
 import { required, email, minLength } from "vuelidate/lib/validators";
 import { userService } from "../../../helpers/fakebackend/user.service";
 /**
