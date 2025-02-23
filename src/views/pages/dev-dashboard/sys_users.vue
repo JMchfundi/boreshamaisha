@@ -2,6 +2,8 @@
 import axios from "axios";
 import { required, email, minLength } from "vuelidate/lib/validators";
 import { userService } from "../../../helpers/fakebackend/user.service";
+axios.defaults.headers.common['Authorization'] = 'Bearer ' + JSON.parse(localStorage.getItem('user')).token;
+// axios.defaults.headers.get['Access-Control-Allow-Origin'] = userService.API_URL;
 /**
  * Transactions component
  */
